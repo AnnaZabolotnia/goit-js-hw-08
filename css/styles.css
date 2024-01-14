@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+}
+li {
+  list-style-type: none;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-top: 100px;
+}
+.gallery-item {
+  width: 360px;
+  height: 300px;
+  flex-shrink: 0;
+}
+.gallery-image {
+  max-width: 100%;
+  height: auto;
+}
